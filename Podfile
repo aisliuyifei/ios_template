@@ -16,4 +16,5 @@ target 'template' do
   pod 'MBProgressHUD'
   pod 'Toast'
   pod 'SDWebImage'
+  pod 'Masonry'
 end

@@ -13,6 +13,7 @@
 		18ED5E5D1F82221F005CEFC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18ED5E5C1F82221F005CEFC2 /* Assets.xcassets */; };
 		18ED5E601F82221F005CEFC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18ED5E5E1F82221F005CEFC2 /* LaunchScreen.storyboard */; };
 		18ED5E631F82221F005CEFC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18ED5E621F82221F005CEFC2 /* main.m */; };
+		18ED5E6C1F824F3E005CEFC2 /* SCAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18ED5E6B1F824F3E005CEFC2 /* SCAdViewController.m */; };
 		9140D58E20BF1F9F8E9740E5 /* libPods-template.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A4F8F369EA6EC715C6E76F2 /* libPods-template.a */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,10 @@
 		18ED5E5F1F82221F005CEFC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18ED5E611F82221F005CEFC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18ED5E621F82221F005CEFC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18ED5E6A1F824F3E005CEFC2 /* SCAdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCAdViewController.h; sourceTree = "<group>"; };
+		18ED5E6B1F824F3E005CEFC2 /* SCAdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCAdViewController.m; sourceTree = "<group>"; };
+		18ED5E6D1F825111005CEFC2 /* GlobalValues.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlobalValues.h; sourceTree = "<group>"; };
+		18ED5E6E1F825164005CEFC2 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		9A4F8F369EA6EC715C6E76F2 /* libPods-template.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-template.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -65,6 +70,7 @@
 		18ED5E521F82221F005CEFC2 /* template */ = {
 			isa = PBXGroup;
 			children = (
+				18ED5E691F824EBC005CEFC2 /* general */,
 				18ED5E531F82221F005CEFC2 /* AppDelegate.h */,
 				18ED5E541F82221F005CEFC2 /* AppDelegate.m */,
 				18ED5E561F82221F005CEFC2 /* ViewController.h */,
@@ -76,6 +82,17 @@
 				18ED5E621F82221F005CEFC2 /* main.m */,
 			);
 			path = template;
+			sourceTree = "<group>";
+		};
+		18ED5E691F824EBC005CEFC2 /* general */ = {
+			isa = PBXGroup;
+			children = (
+				18ED5E6A1F824F3E005CEFC2 /* SCAdViewController.h */,
+				18ED5E6B1F824F3E005CEFC2 /* SCAdViewController.m */,
+				18ED5E6D1F825111005CEFC2 /* GlobalValues.h */,
+				18ED5E6E1F825164005CEFC2 /* PrefixHeader.pch */,
+			);
+			path = general;
 			sourceTree = "<group>";
 		};
 		3372A6328F4218F8B4BEB803 /* Frameworks */ = {
@@ -218,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18ED5E581F82221F005CEFC2 /* ViewController.m in Sources */,
+				18ED5E6C1F824F3E005CEFC2 /* SCAdViewController.m in Sources */,
 				18ED5E631F82221F005CEFC2 /* main.m in Sources */,
 				18ED5E551F82221F005CEFC2 /* AppDelegate.m in Sources */,
 			);
@@ -356,6 +374,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZFR63QY6KV;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = template/general/PrefixHeader.pch;
 				INFOPLIST_FILE = template/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.diosapp.template;
@@ -371,6 +392,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZFR63QY6KV;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = template/general/PrefixHeader.pch;
 				INFOPLIST_FILE = template/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.diosapp.template;

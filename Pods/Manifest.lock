@@ -15,6 +15,7 @@ PODS:
   - Google-Mobile-Ads-SDK (7.5.2)
   - iCarousel (1.8.2)
   - IQKeyboardManager (3.3.2)
+  - Masonry (0.6.3)
   - MBProgressHUD (0.9.1)
   - Reachability (3.2)
   - SBJson (4.0.2)
@@ -30,6 +31,7 @@ DEPENDENCIES:
   - Google-Mobile-Ads-SDK
   - iCarousel
   - IQKeyboardManager
+  - Masonry
   - MBProgressHUD
   - SBJson
   - SDWebImage
@@ -42,6 +44,7 @@ SPEC CHECKSUMS:
   Google-Mobile-Ads-SDK: 24a8ddfc0bcfec281960c5d88f75327df0d86b00
   iCarousel: 67c8a43da5a46795b56aadfc96cd36a16f6149b2
   IQKeyboardManager: d863eb0bca424d1f6dad6bdd1f856af52664add8
+  Masonry: ff105a956abcd19a618b2028b121cb638d7a8e2f
   MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   SBJson: c18691cc18375b14664ff0fec841f8c4faef1934
@@ -50,6 +53,6 @@ SPEC CHECKSUMS:
   TouchJSON: 39be3595ebe489095311d97ce0c824417324cb74
   UMengAnalytics: d24fb5200e13d2874f36b6337bc129b96511c54e
 
-PODFILE CHECKSUM: 7f7c1e6f2c07db623f67641f285a12f696524308
+PODFILE CHECKSUM: 3adec79ed3cfb7f2e4307ba3a7c545f23f211ec3
 
 COCOAPODS: 1.2.0
