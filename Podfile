@@ -6,5 +6,14 @@ target 'template' do
   # use_frameworks!
 
   # Pods for template
+  pod 'UMengAnalytics'
   pod 'Google-Mobile-Ads-SDK'
+  pod 'IQKeyboardManager' 
+  pod 'TouchJSON'
+  pod 'SBJson'
+  pod 'ASIHTTPRequest'
+  pod 'iCarousel'
+  pod 'MBProgressHUD'
+  pod 'Toast'
+  pod 'SDWebImage'
 end

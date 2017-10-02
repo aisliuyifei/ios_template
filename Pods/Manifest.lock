@@ -1,12 +1,55 @@
 PODS:
+  - ASIHTTPRequest (1.8.2):
+    - ASIHTTPRequest/ASIWebPageRequest (= 1.8.2)
+    - ASIHTTPRequest/CloudFiles (= 1.8.2)
+    - ASIHTTPRequest/Core (= 1.8.2)
+    - ASIHTTPRequest/S3 (= 1.8.2)
+  - ASIHTTPRequest/ASIWebPageRequest (1.8.2):
+    - ASIHTTPRequest/Core
+  - ASIHTTPRequest/CloudFiles (1.8.2):
+    - ASIHTTPRequest/Core
+  - ASIHTTPRequest/Core (1.8.2):
+    - Reachability
+  - ASIHTTPRequest/S3 (1.8.2):
+    - ASIHTTPRequest/Core
   - Google-Mobile-Ads-SDK (7.5.2)
+  - iCarousel (1.8.2)
+  - IQKeyboardManager (3.3.2)
+  - MBProgressHUD (0.9.1)
+  - Reachability (3.2)
+  - SBJson (4.0.2)
+  - SDWebImage (3.7.3):
+    - SDWebImage/Core (= 3.7.3)
+  - SDWebImage/Core (3.7.3)
+  - Toast (2.4)
+  - TouchJSON (1.1)
+  - UMengAnalytics (3.6.4)
 
 DEPENDENCIES:
+  - ASIHTTPRequest
   - Google-Mobile-Ads-SDK
+  - iCarousel
+  - IQKeyboardManager
+  - MBProgressHUD
+  - SBJson
+  - SDWebImage
+  - Toast
+  - TouchJSON
+  - UMengAnalytics
 
 SPEC CHECKSUMS:
+  ASIHTTPRequest: ec013992946676b7978dcbde6396d57312d21db4
   Google-Mobile-Ads-SDK: 24a8ddfc0bcfec281960c5d88f75327df0d86b00
+  iCarousel: 67c8a43da5a46795b56aadfc96cd36a16f6149b2
+  IQKeyboardManager: d863eb0bca424d1f6dad6bdd1f856af52664add8
+  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SBJson: c18691cc18375b14664ff0fec841f8c4faef1934
+  SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
+  Toast: 0773b8fc0e97352ca6054517bec7ebdd4110029d
+  TouchJSON: 39be3595ebe489095311d97ce0c824417324cb74
+  UMengAnalytics: d24fb5200e13d2874f36b6337bc129b96511c54e
 
-PODFILE CHECKSUM: 652df036d9a0d44180fd2e5b298a5b058010c547
+PODFILE CHECKSUM: 7f7c1e6f2c07db623f67641f285a12f696524308
 
 COCOAPODS: 1.2.0
