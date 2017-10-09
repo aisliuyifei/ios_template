@@ -51,7 +51,7 @@ respective headers for the terms of their individual licenses.</string>
 		</dict>
 		<dict>
 			<key>FooterText</key>
-			<string>Copyright 2011 Google Inc. All Rights Reserved.</string>
+			<string>Copyright 2017 Google</string>
 			<key>License</key>
 			<string>Copyright</string>
 			<key>Title</key>
@@ -66,7 +66,7 @@ respective headers for the terms of their individual licenses.</string>
 
 The MIT License (MIT)
 
-Copyright (c) 2013-14 Iftekhar Qurashi
+Copyright (c) 2013-16 Iftekhar Qurashi
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
@@ -95,7 +95,7 @@ SOFTWARE.
 		</dict>
 		<dict>
 			<key>FooterText</key>
-			<string>Copyright (c) 2009-2015 Matej Bukovinski
+			<string>Copyright © 2009-2016 Matej Bukovinski
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -205,7 +205,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 		</dict>
 		<dict>
 			<key>FooterText</key>
-			<string>Copyright (c) 2009 Olivier Poitrey &lt;rs@dailymotion.com&gt;
+			<string>Copyright (c) 2009-2017 Olivier Poitrey rs@dailymotion.com
  
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -235,7 +235,7 @@ THE SOFTWARE.
 		</dict>
 		<dict>
 			<key>FooterText</key>
-			<string>Copyright (c) 2014 Charles Scalesse.
+			<string>Copyright (c) 2011-2015 Charles Scalesse.
 
 Permission is hereby granted, free of charge, to any person obtaining a
 copy of this software and associated documentation files (the
@@ -314,8 +314,6 @@ or implied, of Jonathan Wight.
 		<dict>
 			<key>FooterText</key>
 			<string>iCarousel
-
-Version 1.8.2, August 10th, 2015
 
 Copyright (C) 2011 Charcoal Design
 

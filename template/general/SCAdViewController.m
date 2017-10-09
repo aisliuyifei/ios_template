@@ -19,7 +19,10 @@
     //[[UIApplication sharedApplication] setStatusBarHidden:NO];
     self.bannerView = [[GADBannerView alloc]
                        initWithAdSize:kGADAdSizeSmartBannerPortrait];
-    [self.view addSubview:self.bannerView];
+    if (ADMOB_OPEN){
+        [self.view addSubview:self.bannerView];
+        
+    }
     self.bannerView.adUnitID = ADMOBKEY;
     [self.bannerView setFrame:CGRectMake((self.view.frame.size.width-self.bannerView.frame.size.width)/2 ,self.view.frame.size.height-self.bannerView.frame.size.height, self.bannerView.frame.size.width,self.bannerView.frame.size.height)];
     GADRequest *request = [GADRequest request];
@@ -34,7 +37,6 @@
     [super viewWillAppear:animated];
     [self.view bringSubviewToFront:self.bannerView];
     GADRequest *request = [GADRequest request];
-    
     self.bannerView.rootViewController = self.navigationController;
     
     [self.bannerView loadRequest:request];

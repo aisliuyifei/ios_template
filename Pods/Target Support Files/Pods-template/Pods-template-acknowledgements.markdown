@@ -34,7 +34,7 @@ respective headers for the terms of their individual licenses.
 
 ## Google-Mobile-Ads-SDK
 
-Copyright 2011 Google Inc. All Rights Reserved.
+Copyright 2017 Google
 
 ## IQKeyboardManager
 
@@ -43,7 +43,7 @@ IQKeyboardManager license
 
 The MIT License (MIT)
 
-Copyright (c) 2013-14 Iftekhar Qurashi
+Copyright (c) 2013-16 Iftekhar Qurashi
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
@@ -66,7 +66,7 @@ SOFTWARE.
 
 ## MBProgressHUD
 
-Copyright (c) 2009-2015 Matej Bukovinski
+Copyright © 2009-2016 Matej Bukovinski
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -152,7 +152,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ## SDWebImage
 
-Copyright (c) 2009 Olivier Poitrey <rs@dailymotion.com>
+Copyright (c) 2009-2017 Olivier Poitrey rs@dailymotion.com
  
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -176,7 +176,7 @@ THE SOFTWARE.
 
 ## Toast
 
-Copyright (c) 2014 Charles Scalesse.
+Copyright (c) 2011-2015 Charles Scalesse.
 
 Permission is hereby granted, free of charge, to any person obtaining a
 copy of this software and associated documentation files (the
@@ -237,8 +237,6 @@ Copyright 2011 - 2015 UMeng.com. All rights reserved.
 ## iCarousel
 
 iCarousel
-
-Version 1.8.2, August 10th, 2015
 
 Copyright (C) 2011 Charcoal Design
 

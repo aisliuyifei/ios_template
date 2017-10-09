@@ -1,7 +1,7 @@
 //
-//  IQUIViewController+Additions.h
+// IQUIViewController+Additions.h
 // https://github.com/hackiftekhar/IQKeyboardManager
-// Copyright (c) 2013-15 Iftekhar Qurashi.
+// Copyright (c) 2013-16 Iftekhar Qurashi.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -25,13 +25,11 @@
 
 @interface UIViewController (Additions)
 
-#ifdef NSFoundationVersionNumber_iOS_5_1
-
 /**
  Top/Bottom Layout constraint which help library to manage keyboardTextField distance
- */
-@property(nonatomic, strong) IBOutlet NSLayoutConstraint *IQLayoutGuideConstraint;
 
-#endif
+ @deprecated    Library is internally handling Safe Area (If you are using Safe Area from Xcode9 and iOS11) and there is no need to do any tweak if you already migrated to use Safe Area
+*/
+@property(nullable, nonatomic, strong) IBOutlet NSLayoutConstraint *IQLayoutGuideConstraint  NS_DEPRECATED_IOS(8_0, 11_0);
 
 @end
