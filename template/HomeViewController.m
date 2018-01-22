@@ -26,11 +26,9 @@
     badgeView.frame = CGRectMake(0,0,0,0);
     [self.view addSubview:badgeView];
     [badgeView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.equalTo(self.view).with.offset(20);
-        make.width.equalTo(@(self.view.frame.size.height/4));
+        make.left.equalTo(self.view).with.offset(20);        make.width.equalTo(@(self.view.frame.size.height/4));
         make.height.equalTo(@(self.view.frame.size.height/4*973.0/865));
         make.centerY.equalTo(self.view);
-        
     }];
     
     // ADD LEFT BAR UPPline
@@ -142,17 +140,18 @@
         make.width.equalTo(@(self.view.frame.size.width/4));
         make.height.equalTo(@(self.view.frame.size.width/4*638/838));
     }];
-    
+    [self.view addSubview:badgeView];
+
     //ADD BUTTONS
     UIButton *buttonLevels,*buttonReports,*buttonMoreApps,*buttonInfo;
     buttonLevels = [UIButton buttonWithType:UIButtonTypeCustom];
     buttonReports = [UIButton buttonWithType:UIButtonTypeCustom];
     buttonMoreApps = [UIButton buttonWithType:UIButtonTypeCustom];
     buttonInfo = [UIButton buttonWithType:UIButtonTypeCustom];
-    [buttonLevels setImage:[UIImage imageNamed:@"icon1.png"] forState:UIControlStateNormal];
-    [buttonReports setImage:[UIImage imageNamed:@"icon2.png"] forState:UIControlStateNormal];
-    [buttonMoreApps setImage:[UIImage imageNamed:@"icon3.png"] forState:UIControlStateNormal];
-    [buttonInfo setImage:[UIImage imageNamed:@"icon4.png"] forState:UIControlStateNormal];
+    [buttonLevels setImage:[UIImage imageNamed:@"buttonA.png"] forState:UIControlStateNormal];
+    [buttonReports setImage:[UIImage imageNamed:@"buttonB.png"] forState:UIControlStateNormal];
+    [buttonMoreApps setImage:[UIImage imageNamed:@"buttonC.png"] forState:UIControlStateNormal];
+    [buttonInfo setImage:[UIImage imageNamed:@"buttonD.png"] forState:UIControlStateNormal];
     [buttonLevels addTarget:self action:@selector(buttonLevelsClicked:) forControlEvents:UIControlEventTouchUpInside];
     [buttonReports addTarget:self action:@selector(buttonReportsClicked:) forControlEvents:UIControlEventTouchUpInside];
     [buttonMoreApps addTarget:self action:@selector(buttonMoreAppsClicked:) forControlEvents:UIControlEventTouchUpInside];

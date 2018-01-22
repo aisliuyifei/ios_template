@@ -34,7 +34,7 @@
 #define FONT_SIZE_LARGE (isPad ? 60 : (SCREEN_HEIGHT > 320 ? 30 : 24))
 #define FONT_SIZE_MEDIUM (isPad ? 40 : (SCREEN_HEIGHT > 320 ? 20 : 16))
 #define FONT_SIZE_SMALL (isPad ? 30 : ((SCREEN_HEIGHT > 320 ? 15 : 12)))
-#define THEME_COLOR (kRGBColor(240,146,196))
+#define THEME_COLOR (kRGBColor(4,150,240))
 
 
 

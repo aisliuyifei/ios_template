@@ -17,4 +17,7 @@ target 'template' do
   pod 'Toast'
   pod 'SDWebImage'
   pod 'Masonry'
+  pod 'HSSetTableViewController','~> 1.2.1'
+  pod 'SDAutoLayout', '~> 2.1.3'
+  pod 'Onboard'
 end

@@ -77,9 +77,11 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_resource "HSSetTableViewController/HSSetTableViewController/HSSetTableViewController.bundle"
   install_resource "IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_resource "HSSetTableViewController/HSSetTableViewController/HSSetTableViewController.bundle"
   install_resource "IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle"
 fi
 
